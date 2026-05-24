@@ -1,0 +1,12 @@
+{
+  "name": "fps-shooter-game",
+  "version": "1.0.0",
+  "description": "Browser-based 3D arena FPS vs one AI bot",
+  "scripts": {
+    "start": "npx serve -l 8080"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
