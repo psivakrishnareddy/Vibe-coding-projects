@@ -1,0 +1,35 @@
+.kanban-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.kanban-app-header {
+  padding: 24px 32px 12px;
+  flex-shrink: 0;
+}
+
+.kanban-app-header h1 {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--color-dark-navy);
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+.kanban-board {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 12px 32px 32px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.kanban-columns-container {
+  display: flex;
+  gap: 24px;
+  height: 100%;
+}
