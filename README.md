@@ -22,6 +22,34 @@ My first build in this repo: a **browser-based 3D first-person arena shooter** m
 
 ---
 
+### 2. [Kanban](kanban/) -- Single-board Kanban (Cursor)
+
+A **single-board Kanban project management app** built entirely with Cursor. Five renamable columns, drag-and-drop cards via dnd-kit, inline add/delete -- no persistence, no auth, just a clean board that opens pre-populated with sample data.
+
+![Kanban board](kanban/screenshots/01-board.png)
+
+| | |
+|---|---|
+| **Stack** | Next.js 16, React 19, dnd-kit, Tailwind CSS 4 |
+| **Run** | `cd kanban/frontend && npm install && npm run dev` |
+| **Docs** | [kanban/README.md](kanban/README.md) |
+
+---
+
+### 3. [Kanban Gemini](kanban_gemini/) -- Single-board Kanban (Gemini)
+
+The **same Kanban spec rebuilt with Gemini** as a head-to-head comparison. Identical feature set -- five columns, drag-and-drop, add/delete cards -- but coded by a different agent using vanilla CSS and Lucide icons instead of Tailwind.
+
+![Kanban Gemini board](kanban_gemini/screenshots/01-board.png)
+
+| | |
+|---|---|
+| **Stack** | Next.js 16, React 19, dnd-kit, Lucide React, vanilla CSS |
+| **Run** | `cd kanban_gemini/frontend && npm install && npm run dev` |
+| **Docs** | [kanban_gemini/frontend/README.md](kanban_gemini/frontend/README.md) |
+
+---
+
 ## How this repo works
 
 - **Vibe coding** — start with a rough goal, iterate in the open, favor working demos over perfect architecture.
